@@ -1,89 +1,13 @@
 import Header from "./parts/header/Header";
+import WhatWeDo from "./parts/what-we-do/WhatWeDo";
+import Developers from "./parts/developers/Developers";
 
 function App() {
   return (
     <div className="w-full h-auto">
       <Header />
-      <div>
-        hi!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
-        dignissimos vel, eos corporis voluptatibus assumenda aperiam delectus
-        molestiae! Maxime saepe voluptatibus possimus repellat harum, aliquam
-        cupiditate sunt cum tempora voluptas! Lorem ipsum dolor sit amet
-        consectetur, adipisicing elit. Numquam dignissimos vel, eos corporis
-        voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas! Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Numquam dignissimos vel, eos corporis voluptatibus assumenda
-        aperiam delectus molestiae! Maxime saepe voluptatibus possimus repellat
-        harum, aliquam cupiditate sunt cum tempora voluptas! Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Numquam dignissimos vel, eos
-        corporis voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas! Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Numquam dignissimos vel, eos corporis voluptatibus assumenda
-        aperiam delectus molestiae! Maxime saepe voluptatibus possimus repellat
-        harum, aliquam cupiditate sunt cum tempora voluptas! Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Numquam dignissimos vel, eos
-        corporis voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas! Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Numquam dignissimos vel, eos corporis voluptatibus assumenda
-        aperiam delectus molestiae! Maxime saepe voluptatibus possimus repellat
-        harum, aliquam cupiditate sunt cum tempora voluptas! Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Numquam dignissimos vel, eos
-        corporis voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas! Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Numquam dignissimos vel, eos corporis voluptatibus assumenda
-        aperiam delectus molestiae! Maxime saepe voluptatibus possimus repellat
-        harum, aliquam cupiditate sunt cum tempora voluptas! Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Numquam dignissimos vel, eos
-        corporis voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas! Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Numquam dignissimos vel, eos corporis voluptatibus assumenda
-        aperiam delectus molestiae! Maxime saepe voluptatibus possimus repellat
-        harum, aliquam cupiditate sunt cum tempora voluptas! Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Numquam dignissimos vel, eos
-        corporis voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas! Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Numquam dignissimos vel, eos corporis voluptatibus assumenda
-        aperiam delectus molestiae! Maxime saepe voluptatibus possimus repellat
-        harum, aliquam cupiditate sunt cum tempora voluptas! Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Numquam dignissimos vel, eos
-        corporis voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas! Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Numquam dignissimos vel, eos corporis voluptatibus assumenda
-        aperiam delectus molestiae! Maxime saepe voluptatibus possimus repellat
-        harum, aliquam cupiditate sunt cum tempora voluptas! Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Numquam dignissimos vel, eos
-        corporis voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas! Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Numquam dignissimos vel, eos corporis voluptatibus assumenda
-        aperiam delectus molestiae! Maxime saepe voluptatibus possimus repellat
-        harum, aliquam cupiditate sunt cum tempora voluptas! Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Numquam dignissimos vel, eos
-        corporis voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas! Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Numquam dignissimos vel, eos corporis voluptatibus assumenda
-        aperiam delectus molestiae! Maxime saepe voluptatibus possimus repellat
-        harum, aliquam cupiditate sunt cum tempora voluptas! Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Numquam dignissimos vel, eos
-        corporis voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas! Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Numquam dignissimos vel, eos corporis voluptatibus assumenda
-        aperiam delectus molestiae! Maxime saepe voluptatibus possimus repellat
-        harum, aliquam cupiditate sunt cum tempora voluptas! Lorem ipsum dolor
-        sit amet consectetur, adipisicing elit. Numquam dignissimos vel, eos
-        corporis voluptatibus assumenda aperiam delectus molestiae! Maxime saepe
-        voluptatibus possimus repellat harum, aliquam cupiditate sunt cum
-        tempora voluptas!
-      </div>
+      <WhatWeDo />
+      <Developers />
     </div>
   );
 }
