@@ -1,9 +1,8 @@
 {
-  "name": "qc-portfolio",
-  "private": true,
+  "name": "portfolio",
+  "homepage": "https://quantum-code-solutions.github.io/portfolio/",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://quantum-code-solutions.github.io/portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
