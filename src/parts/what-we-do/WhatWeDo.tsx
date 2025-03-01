@@ -7,8 +7,13 @@ const WhatWeDo = () => {
         className="bg-[url(/software-development.jpg)] bg-cover bg-center min-h-[calc(100vh-4rem)] flex justify-center items-center text-[#E0E0E0]"
       >
         <div className="flex flex-col items-center gap-16 z-1">
-          <label className="text-6xl">What we do?</label>
-          <div className="max-w-9/10 text-wrap text-lg text-center">
+          <label className="text-6xl" data-aos="zoom-in">
+            What we do?
+          </label>
+          <div
+            data-aos="fade-right"
+            className="max-w-9/10 text-wrap text-lg text-center"
+          >
             At Quantum Code Solutions, we specialize in providing innovative and
             efficient software development services tailored to meet the unique
             needs of our clients. Our team of experienced developers works

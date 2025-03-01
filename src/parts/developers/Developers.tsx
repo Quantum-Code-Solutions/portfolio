@@ -73,11 +73,14 @@ const Developers = () => {
         id="developers"
         className="min-h-[calc(100vh-4rem)] flex flex-col items-center text-[#E0E0E0] justify-center"
       >
-        <div className="min-h-[4rem] flex items-center justify-center text-6xl text-center">
+        <div
+          data-aos="zoom-out"
+          className="min-h-[4rem] flex items-center justify-center text-6xl text-center"
+        >
           Meet our Developers
         </div>
         <div
-          id="grid"
+          data-aos="fade"
           className="flex justify-between gap-4 flex-wrap w-full p-4 mt-4 overflow-x-auto md:overflow-visible"
         >
           {developers.map((developer, index) => (
