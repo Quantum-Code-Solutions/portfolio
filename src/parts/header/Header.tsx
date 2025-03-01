@@ -1,4 +1,19 @@
 import { useState } from "react";
+import { Sections } from "../../constants/section";
+
+const scrollToSection = (id: string) => {
+  const element = document.getElementById(id);
+  if (element) {
+    if (id === Sections.WhatWeDo) {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    } else {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+};
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,35 +29,38 @@ const Header = () => {
           </div>
           <div className="hidden md:flex space-x-4">
             <a
-              href="#what-we-do"
-              className="text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("what-we-do")}
+              className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               What we do
             </a>
             <a
-              href="#developers"
-              className="text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("developers")}
+              className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Developers
             </a>
-            <a href="#projects" className="text-[#E0E0E0] hover:text-[#B0B0B0]">
+            <a
+              onClick={() => scrollToSection("projects")}
+              className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
+            >
               Projects
             </a>
             <a
-              href="#contact-us"
-              className="text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("contact-us")}
+              className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Contact us
             </a>
             <a
-              href="#testimonials"
-              className="text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("testimonials")}
+              className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Testimonials
             </a>
             <a
-              href="#community"
-              className="text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("community")}
+              className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Community
             </a>
@@ -80,38 +98,38 @@ const Header = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-              href="#what-we-do"
-              className="block text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("what-we-do")}
+              className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               What we do
             </a>
             <a
-              href="#developers"
-              className="block text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("developers")}
+              className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Developers
             </a>
             <a
-              href="#projects"
-              className="block text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("projects")}
+              className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Projects
             </a>
             <a
-              href="#contact-us"
-              className="block text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("contact-us")}
+              className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Contact us
             </a>
             <a
-              href="#testimonials"
-              className="block text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("testimonials")}
+              className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Testimonials
             </a>
             <a
-              href="#community"
-              className="block text-[#E0E0E0] hover:text-[#B0B0B0]"
+              onClick={() => scrollToSection("community")}
+              className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Community
             </a>

@@ -4,6 +4,7 @@ import {
   faGithub,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+import { Sections } from "../../constants/section";
 
 type Developer = {
   name: string;
@@ -70,7 +71,7 @@ const Developers = () => {
   return (
     <div className="relative min-h-[calc(100vh-4rem)] overflow-hidden bg-gradient-to-r from-black to-gray-900 py-6">
       <div
-        id="developers"
+        id={Sections.Developers}
         className="min-h-[calc(100vh-4rem)] flex flex-col items-center text-[#E0E0E0] justify-center"
       >
         <div
