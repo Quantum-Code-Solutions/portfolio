@@ -98,7 +98,7 @@ const Developers = () => {
               <div className="text-center mb-4 max-w-9/10 text-xs">
                 <p>{developer.role}</p>
               </div>
-              <div className="flex gap-4 mb-4">
+              <div className="flex gap-4">
                 {developer.socialLinks.linkedin && (
                   <a
                     href={developer.socialLinks.linkedin}
