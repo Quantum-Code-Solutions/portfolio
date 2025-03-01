@@ -3,6 +3,7 @@ import AOS from "aos";
 import Header from "./parts/header/Header";
 import WhatWeDo from "./parts/what-we-do/WhatWeDo";
 import Developers from "./parts/developers/Developers";
+import ContactUs from "./parts/contact-us/ContactUs";
 
 const App = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const App = () => {
       <Header />
       <WhatWeDo />
       <Developers />
+      <ContactUs />
     </div>
   );
 };

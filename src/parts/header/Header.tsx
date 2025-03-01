@@ -29,37 +29,37 @@ const Header = () => {
           </div>
           <div className="hidden md:flex space-x-4">
             <a
-              onClick={() => scrollToSection("what-we-do")}
+              onClick={() => scrollToSection(Sections.WhatWeDo)}
               className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               What we do
             </a>
             <a
-              onClick={() => scrollToSection("developers")}
+              onClick={() => scrollToSection(Sections.Developers)}
               className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Developers
             </a>
             <a
-              onClick={() => scrollToSection("projects")}
+              onClick={() => scrollToSection(Sections.Projects)}
               className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Projects
             </a>
             <a
-              onClick={() => scrollToSection("contact-us")}
+              onClick={() => scrollToSection(Sections.ContactUs)}
               className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Contact us
             </a>
             <a
-              onClick={() => scrollToSection("testimonials")}
+              onClick={() => scrollToSection(Sections.Testimonials)}
               className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Testimonials
             </a>
             <a
-              onClick={() => scrollToSection("community")}
+              onClick={() => scrollToSection(Sections.Community)}
               className="text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Community
@@ -98,37 +98,37 @@ const Header = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-              onClick={() => scrollToSection("what-we-do")}
+              onClick={() => scrollToSection(Sections.WhatWeDo)}
               className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               What we do
             </a>
             <a
-              onClick={() => scrollToSection("developers")}
+              onClick={() => scrollToSection(Sections.Developers)}
               className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Developers
             </a>
             <a
-              onClick={() => scrollToSection("projects")}
+              onClick={() => scrollToSection(Sections.Projects)}
               className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Projects
             </a>
             <a
-              onClick={() => scrollToSection("contact-us")}
+              onClick={() => scrollToSection(Sections.ContactUs)}
               className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Contact us
             </a>
             <a
-              onClick={() => scrollToSection("testimonials")}
+              onClick={() => scrollToSection(Sections.Testimonials)}
               className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Testimonials
             </a>
             <a
-              onClick={() => scrollToSection("community")}
+              onClick={() => scrollToSection(Sections.Community)}
               className="block text-[#E0E0E0] hover:text-[#B0B0B0] cursor-pointer"
             >
               Community
