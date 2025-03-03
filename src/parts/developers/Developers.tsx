@@ -66,6 +66,26 @@ const Developers = () => {
       },
       role: "Wordpress Developer",
     },
+    {
+      name: "Brian Villarubia",
+      image: "/portfolio/developers/brian.jpg",
+      socialLinks: {
+        facebook: "https://www.facebook.com/jemian868",
+        github: "https://github.com/jemian868",
+        linkedin: "https://www.linkedin.com/in/brian-villarubia-760b96274/",
+      },
+      role: "Fullstack Developer",
+    },
+    {
+      name: "Zoren Panilagao",
+      image: "/portfolio/developers/zoren.jpeg",
+      socialLinks: {
+        facebook: "https://www.facebook.com/zoren.xwind2",
+        github: "https://github.com/Z3ron7",
+        linkedin: "https://www.linkedin.com/in/zoren-panilagao-79921a316/",
+      },
+      role: "Fullstack Developer",
+    },
   ];
 
   return (
@@ -82,12 +102,12 @@ const Developers = () => {
         </div>
         <div
           data-aos="fade"
-          className="flex justify-between gap-4 flex-wrap w-full p-4 mt-4 overflow-x-auto md:overflow-visible"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full p-4 mt-4 justify-center items-center"
         >
           {developers.map((developer, index) => (
             <div
               key={index}
-              className="flex flex-col items-center p-4 rounded-lg bg-gray-800 bg-opacity-50 flex-1 min-w-[200px]"
+              className="flex flex-col items-center p-4 rounded-lg bg-gray-800 bg-opacity-50"
             >
               <div className="relative mb-4">
                 <img

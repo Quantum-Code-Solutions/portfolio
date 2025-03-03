@@ -1,6 +1,23 @@
+import { useEffect } from "react";
 import { Sections } from "../../constants/section";
 
+const calendlyWidgetScript = "calendlyWidgetScript";
+
 const ContactUs = () => {
+  useEffect(() => {
+    const head = document.querySelector("head");
+    const script = document.createElement("script");
+    script.setAttribute("id", calendlyWidgetScript);
+    script.setAttribute(
+      "src",
+      "https://assets.calendly.com/assets/external/widget.js"
+    );
+
+    if (head) {
+      head.appendChild(script);
+    }
+  }, []);
+
   return (
     <div className="relative min-h-[calc(100vh-4rem)] overflow-hidden bg-gradient-to-r from-black to-gray-900">
       <div
