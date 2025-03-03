@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Sections } from "../../constants/section";
 
 const scrollToSection = (id: string) => {
@@ -17,9 +17,26 @@ const scrollToSection = (id: string) => {
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [opacity, setOpacity] = useState(1);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      const newOpacity = Math.max(1 - scrollTop / 300, 0.8);
+      setOpacity(newOpacity);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <header className="sticky top-0 z-50 transition-colors duration-300 bg-[#121212]">
+    <header
+      className="sticky top-0 z-50 transition-colors duration-300 bg-[#121212]"
+      style={{ opacity }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
